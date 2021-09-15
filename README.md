@@ -28,4 +28,8 @@ Cryptoglyph is an 100% offline password manager android application which encryp
 <ul>
 
 ## Screenshots
-<img src="/Snapshots/SS1.jpg">
+  <img src="/Snapshots/SS1.jpg" width="360" height="640"> 
+  <img src="/Snapshots/SS2.jpg" width="360" height="640">
+  <img src="/Snapshots/SS3.jpg" width="360" height="640">
+  <img src="/Snapshots/SS4.jpg" width="360" height="640">
+  <img src="/Snapshots/SS5.jpg" width="360" height="640">
