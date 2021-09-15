@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Cryptoglyph</string>
+    <string name="add_new">Add New</string>
+    <string name="imports">Import</string>
+    <string name="export">Export</string>
+    <string name="organization">Organization / :\nCompany \n</string>
+    <string name="username">Username :</string>
+    <string name="password">Password :</string>
+    <string name="encrypt_options">Encrypt Options :</string>
+    <string name="password_n_only">Password \n Only\n</string>
+    <string name="username_n_and_n_password">Username \n and \n Password\n</string>
+    <string name="save">Save</string>
+    <string name="change_pin">Change PIN</string>
+    <string name="emote">Change Emote Pack</string>
+</resources>

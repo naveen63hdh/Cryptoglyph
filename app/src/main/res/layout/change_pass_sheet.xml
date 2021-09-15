@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/semi_curve"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/oldPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/current_pass_txt"
+        android:ems="10"
+        android:hint="Current Password"
+        android:paddingStart="10dp"
+        android:paddingEnd="50dp" />
+
+    <EditText
+        android:id="@+id/newPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/new_pass_txt"
+        android:ems="10"
+        android:hint="New Password"
+        android:paddingStart="60dp"
+        android:paddingEnd="10dp"
+        />
+
+    <EditText
+        android:id="@+id/retypePass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/retype_pass_txt"
+        android:ems="10"
+        android:hint="Retype Password"
+        android:paddingStart="60dp"
+        android:paddingEnd="10dp"
+        />
+
+    <Button
+        android:id="@+id/change_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/change_btn"
+        android:text="Change"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+</LinearLayout>
+

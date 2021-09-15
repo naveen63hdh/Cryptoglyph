@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorAccent"
+    android:padding="25dp"
+    android:scrollbars="none">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/full_logo" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/app_label" />
+
+            <EditText
+                android:id="@+id/org"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/txt_back"
+                android:drawableStart="@drawable/network_icon"
+                android:cursorVisible="true"
+                android:inputType="text"
+                android:drawablePadding="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/uname_label" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/uname"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/txt_back"
+                    android:drawableStart="@drawable/uname_icon"
+                    android:cursorVisible="true"
+                    android:drawablePadding="10dp"
+                    android:inputType="text"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/pass_label" />
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:passwordToggleEnabled="true"
+                app:passwordToggleTint="@color/colorPrimary"
+                >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/password"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/txt_back"
+                android:drawableStart="@drawable/pass_icon"
+                android:cursorVisible="true"
+                android:inputType="textPassword"
+                android:drawablePadding="10dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/save_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/save_btn"
+                android:text="Save"
+                android:textColor="#fff" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>
+
+
+    <!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--    xmlns:tools="http://schemas.android.com/tools"-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:layout_height="match_parent"-->
+    <!--    tools:context=".AddActivity">-->
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:orientation="vertical">-->
+
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:orientation="horizontal"-->
+    <!--            android:paddingStart="20dp"-->
+    <!--            android:paddingTop="20dp"-->
+    <!--            android:paddingBottom="20dp"-->
+    <!--            android:paddingEnd="10dp"-->
+    <!--            >-->
+
+    <!--            <TextView-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:text="@string/organization" />-->
+
+    <!--            <EditText-->
+    <!--                android:id="@+id/org"-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_marginStart="10dp"-->
+    <!--                android:ems="10"-->
+    <!--                android:hint="Eg: Facebook,G-mail...,etc" />-->
+
+    <!--        </LinearLayout>-->
+
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:orientation="horizontal"-->
+    <!--            android:padding="20dp">-->
+
+    <!--            <TextView-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:text="@string/username" />-->
+
+    <!--            <EditText-->
+    <!--                android:id="@+id/uname"-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_marginStart="10dp"-->
+    <!--                android:hint="Enter Your Username"-->
+    <!--                android:ems="10" />-->
+
+    <!--        </LinearLayout>-->
+
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:orientation="horizontal"-->
+    <!--            android:padding="20dp">-->
+
+    <!--            <TextView-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:text="@string/password" />-->
+
+    <!--            <EditText-->
+    <!--                android:id="@+id/password"-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_marginStart="10dp"-->
+    <!--                android:hint="Enter Your Password"-->
+    <!--                android:ems="10" />-->
+
+    <!--        </LinearLayout>-->
+
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:padding="20dp"-->
+    <!--            android:orientation="horizontal">-->
+
+    <!--            <LinearLayout-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:orientation="vertical">-->
+
+    <!--                <TextView-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:text="@string/encrypt_options"/>-->
+
+    <!--            <RadioGroup-->
+    <!--                android:id="@+id/encrypt_options"-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_marginTop="15dp"-->
+    <!--                android:layout_marginStart="50dp"-->
+    <!--                android:orientation="horizontal">-->
+
+    <!--                <RadioButton-->
+    <!--                    android:id="@+id/pass_only"-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:checked="true"-->
+    <!--                    android:text="@string/password_n_only" />-->
+
+    <!--                <RadioButton-->
+    <!--                    android:id="@+id/uname_and_pass"-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:layout_marginStart="15dp"-->
+    <!--                    android:text="@string/username_n_and_n_password" />-->
+    <!--            </RadioGroup>-->
+
+    <!--            </LinearLayout>-->
+
+    <!--        </LinearLayout>-->
+
+    <!--    </LinearLayout>-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/save_btn"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_alignParentBottom="true"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:paddingStart="80dp"-->
+    <!--        android:paddingEnd="80dp"-->
+    <!--        android:textColor="@android:color/white"-->
+    <!--        android:background="@drawable/semi_curve"-->
+    <!--        android:paddingTop="25dp"-->
+    <!--        android:paddingBottom="25dp"-->
+    <!--        android:text="@string/save"-->
+    <!--        />-->
+
+    <!--</RelativeLayout>-->
